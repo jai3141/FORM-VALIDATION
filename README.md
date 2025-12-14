@@ -40,5 +40,5 @@ This project includes basic form validation to ensure correct user input before 
 - Confirm password match
 
   
-Tell me, I’ll customize it for **placements & interviews** 🔥
+
 
