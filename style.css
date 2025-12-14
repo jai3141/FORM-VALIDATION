@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: black;
+    color: white;
+    font-family: 'poppins', 'sans-serif';
+    background: #9b2a83;
+    background: linear-gradient(4deg, rgba(155, 42, 131, 1) 24%, rgba(132, 83, 237, 1) 100%);
+
+}
+
+#form {
+    width: 400px;
+    margin: 10vh auto 0 auto;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 10px;
+    padding: 50px;
+    box-shadow: 0px 0px 10px rgb(255, 28, 225);
+}
+
+h1 {
+    text-align: center;
+    color: purple;
+
+}
+
+#form button {
+    background-color: purple;
+    color: white;
+    border: 1px solid purple;
+    padding: 10px;
+    margin: 20px 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 100%;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+
+
+}
+
+.input-group input {
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid;
+}
+
+.input-group input:focus {
+    outline: 0;
+}
+
+.input-group .error {
+    color: red;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.input-group.success input {
+    border-color: black;
+}
+
+.input-group.error input {
+    border-color: red;
+}
+
+/* Mobile Screens (max-width: 600px) */
+@media (max-width: 600px) {
+
+    body {
+        padding: 10px;
+    }
+
+    #form {
+        width: 70%;
+        margin: 10vh auto;
+        padding: 25px;
+        box-shadow: 0px 0px 8px rgb(255, 28, 225);
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .input-group input {
+        font-size: 16px;
+        padding: 8px;
+    }
+
+    #form button {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .input-group .error {
+        font-size: 14px;
+    }
+}
